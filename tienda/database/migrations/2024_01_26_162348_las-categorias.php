@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id('id_categoria');
             $table->string('nombre');
             $table->string('descripcion');
-            $table->timestamp('email_verified_at')->nullable();
             $table->timestamps();
         });
     }

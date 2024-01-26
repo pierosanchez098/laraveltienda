@@ -21,7 +21,6 @@ return new class extends Migration
             $table->date('fecha_nacimiento');
             $table->string('contrasena');
             $table->string('rol');
-            $table->timestamp('email_verified_at')->nullable();
             $table->timestamps();
         });
     }

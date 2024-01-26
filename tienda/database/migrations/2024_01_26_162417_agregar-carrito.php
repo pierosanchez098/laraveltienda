@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('cantidad');
             $table->integer('precio_producto');
             $table->integer('total');
-            $table->timestamp('email_verified_at')->nullable();
             $table->timestamps();
         });
     }
