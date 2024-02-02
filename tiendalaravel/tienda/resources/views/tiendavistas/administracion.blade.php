@@ -11,9 +11,9 @@
 
 <h3>¿Que quieres administrar?</h3>
 
-<a href="{{ route('tienda.crudcatalogo') }}">Catálogo de productos</a>
-<a href="{{ route('tienda.crudcategoria') }}">Categorías</a>
-<a href="{{ route('tienda.crudusuario') }}">Usuarios</a>
+<a href="{{ route('tienda.Mirarcrudcatalogo') }}">Catálogo de productos</a>
+<a href="{{ route('tienda.Mirarcrudcategoria') }}">Categorías</a>
+<a href="{{ route('tienda.Mirarcrudusuario') }}">Usuarios</a>
 
 
 </body>

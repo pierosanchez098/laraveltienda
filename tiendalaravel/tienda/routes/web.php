@@ -30,4 +30,10 @@ Route::get('mostrarAdministracion', [AplicacionController::class, 'mostrarAdmini
 
 //Rutas de administracion
 
-Route::get('mostrarCRUDcatalogo', [AplicacionController::class, 'mostrarCRUDcatalogo'])->name('tienda.crudcatalogo');
+Route::get('mostrarCRUDcatalogo', [AplicacionController::class, 'mostrarCRUDcatalogo'])->name('tienda.Mirarcrudcatalogo');
+Route::get('mostrarCRUDcategoria', [AplicacionController::class, 'mostrarCRUDcategoria'])->name('tienda.Mirarcrudcategoria');
+Route::get('mostrarCRUDusuario', [AplicacionController::class, 'mostrarCRUDusuario'])->name('tienda.Mirarcrudusuario');
+
+//Routes de funciones de crud usuario
+Route::get('registrarcomoAdmin', [AplicacionController::class, 'registrarcomoAdmin'])->name('tienda.registrarporAdmin');
+Route::get('/tiendavistas/crudusuario', [AplicacionController::class, 'verUsuarios'])->name('tienda.verUsuarios');
